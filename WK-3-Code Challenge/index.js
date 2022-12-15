@@ -39,7 +39,7 @@ function addClickEvent(){
     }
 }
 //Posting the movie details
-// the poster to be dispalyed on the div with poster id
+// the poster to be displayed on the div with poster id
 function setUpMovieDetails(funMovie){
     const preview = document.getElementById('poster')
     preview.src = funMovie.poster;
